@@ -14,13 +14,13 @@ jobs:
   renovate:
     runs-on: ubuntu-latest
     steps:
-      - uses: tibdex/github-app-token@32691ba7c9e7063bd457bd8f2a5703138591fa58
+      - uses: tibdex/github-app-token@32691ba7c9e7063bd457bd8f2a5703138591fa58 # v1.9.0
         id: get_token
         with:
           private_key: ${{ secrets.private_key }}
           app_id: ${{ secrets.app_id }}
-      - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac
-      - uses: renovatebot/github-action@3cef36a9aba515d8726b491905b3bc766832e221
+      - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4.0.0
+      - uses: renovatebot/github-action@3cef36a9aba515d8726b491905b3bc766832e221 # v39.0.5
         with:
           configurationFile: config.js
           token: '${{ steps.get_token.outputs.token }}'
