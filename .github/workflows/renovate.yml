@@ -23,3 +23,5 @@ jobs:
         with:
           configurationFile: config.js
           token: '${{ steps.get_token.outputs.token }}'
+        env:
+          LOG_LEVEL: debug
