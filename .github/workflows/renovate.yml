@@ -3,6 +3,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 name: Renovate
+concurrency: renovate
 on:
   push:
     branches:
