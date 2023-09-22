@@ -4,7 +4,7 @@
 
 module.exports = {
     gitAuthor: "xfix's Renovate Bot <renovate@borowski.pw>",
-    repositories: ['pastebinrun/pastebinrun', 'xfix/renovate-executor', 'xfix/xfix.pw'],
+    repositories: ['xfix/renovate-executor', 'xfix/xfix.pw'],
     onboardingConfig: {
         $schema: "https://docs.renovatebot.com/renovate-schema.json",
         extends: ["config:recommended"],
