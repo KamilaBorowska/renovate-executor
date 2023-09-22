@@ -7,7 +7,6 @@ on:
   pull_request:
     branches: master
 env:
-  # renovate: datasource=docker depName=renovate packageName=ghcr.io/renovatebot/renovate
   RENOVATE_VERSION: 36.103.0@sha256:d0aa88e02ed1683fc489872e5e1d02596759989191d7b61add4aff5bc232fe25
 jobs:
   renovate-dry-run:

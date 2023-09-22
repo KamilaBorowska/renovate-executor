@@ -1,8 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended",
-    "regexManagers:githubActionsVersions"
+    "config:recommended"
   ],
   "packageRules": [
     {
@@ -10,6 +9,20 @@
         "actions/checkout"
       ],
       "automerge": true
+    }
+  ],
+  "regexManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": [
+        "^.github/(?:workflows|actions)/.+\\.ya?ml$"
+      ],
+      "matchStrings": [
+        "RENOVATE_VERSION: (?<currentValue>.+?)@(?<currentDigest>sha256:[a-f0-9]+)"
+      ],
+      "datasourceTemplate": "docker",
+      "depNameTemplate": "renovate",
+      "packageNameTemplate": "ghcr.io/renovatebot/renovate"
     }
   ]
 }
