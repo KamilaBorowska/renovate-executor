@@ -6,7 +6,8 @@
   "packageRules": [
     {
       "matchPackageNames": [
-        "actions/checkout"
+        "actions/checkout",
+        "renovate"
       ],
       "automerge": true
     }
