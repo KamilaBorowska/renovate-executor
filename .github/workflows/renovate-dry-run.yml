@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: master
 env:
-  RENOVATE_VERSION: 37.31.5@sha256:43689c83313e74f3ceb9bd0c3fe66defa427b1edcf044514e7c01f736a6cfe78
+  RENOVATE_VERSION: 37.31.7@sha256:ec43763b7049203264272308189c585f6cabf11164fa2d6637b68f52c9672ed0
 jobs:
   renovate-dry-run:
     runs-on: ubuntu-latest
