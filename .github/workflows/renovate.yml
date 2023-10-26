@@ -22,7 +22,7 @@ jobs:
           private_key: ${{ secrets.private_key }}
           app_id: ${{ secrets.app_id }}
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-      - uses: renovatebot/github-action@89c8a9b60f5bc8395658abab8f40f96e4b490ebf # v39.1.0
+      - uses: renovatebot/github-action@5c6c06aa0e3d7a6a9b6cba05c078c51631b5f11a # v39.1.1
         with:
           configurationFile: config.js
           token: '${{ steps.get_token.outputs.token }}'
