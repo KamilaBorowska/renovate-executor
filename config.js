@@ -1,9 +1,9 @@
-// SPDX-FileCopyrightText: 2023 Konrad Borowski <konrad@borowski.pw>
+// SPDX-FileCopyrightText: 2023 Kamila Borowska <kamila@borowska.pw>
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 module.exports = {
-    gitAuthor: "xfix's Renovate Bot <renovate@borowski.pw>",
+    gitAuthor: "xfix's Renovate Bot <renovate@borowska.pw>",
     repositories: ['xfix/renovate-executor', 'xfix/xfix.pw'],
     onboardingConfig: {
         $schema: "https://docs.renovatebot.com/renovate-schema.json",
