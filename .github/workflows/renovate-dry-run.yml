@@ -4,8 +4,12 @@
 
 name: Renovate Dry Run
 on:
+  push:
+    branches:
+      - renovate/*
   pull_request:
-    branches: master
+    branches:
+      - master
 env:
   RENOVATE_VERSION: 37.56.3@sha256:f8029349365a47f44c59258dd74a932745a1cd929df56d02df826abc2c70e8e8
 jobs:
