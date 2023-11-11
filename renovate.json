@@ -9,7 +9,8 @@
         "actions/checkout",
         "renovate"
       ],
-      "automerge": true
+      "automerge": true,
+      "automergeType": "branch"
     }
   ],
   "regexManagers": [
