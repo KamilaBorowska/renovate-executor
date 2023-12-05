@@ -11,7 +11,7 @@ on:
     branches:
       - master
 env:
-  RENOVATE_VERSION: 37.83.0@sha256:26fb9af3f090af38a208daabbc21153426909a7f96a951cf6f8f3b3fb411b5d0
+  RENOVATE_VERSION: 37.83.2@sha256:05ffb148a3a98c48deadb0a46953ba2c9fccbe1a50416c022d59c039367a0777
 jobs:
   renovate-dry-run:
     runs-on: ubuntu-latest
