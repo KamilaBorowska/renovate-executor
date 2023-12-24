@@ -7,7 +7,7 @@
     {
       "matchPackageNames": [
         "actions/checkout",
-        "renovate"
+        "ghcr.io/renovatebot/renovate"
       ],
       "automerge": true,
       "automergeType": "branch"
