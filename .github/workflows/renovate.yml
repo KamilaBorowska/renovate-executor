@@ -11,7 +11,7 @@ on:
   schedule:
     - cron: 0/15 * * * *
 env:
-  RENOVATE_VERSION: 37.181.7@sha256:709a9b34f84e82c626be332520dcf1004bfc4c90fb3326878520e771d24dbcc2
+  RENOVATE_VERSION: 37.181.8@sha256:159c64450d6b1dbac65289ad2b47a8e03106fcba07da9cbf00aa5b253dc48d06
 jobs:
   renovate:
     runs-on: ubuntu-latest
